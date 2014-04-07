@@ -1,0 +1,6 @@
+[Fri Feb 28 11:56:41.862261 2014] [mpm_event:notice] [pid 944:tid 140599983572736] AH00489: Apache/2.4.7 (Unix) PHP/5.5.8 configured -- resuming normal operations
+[Fri Feb 28 11:56:41.862347 2014] [core:notice] [pid 944:tid 140599983572736] AH00094: Command line: '/home/action/.parts/packages/apache2/2.4.7-nitrous1/bin/httpd'
+[Fri Feb 28 11:56:42.864589 2014] [mpm_event:error] [pid 944:tid 140599983572736] AH00484: server reached MaxRequestWorkers setting, consider raising the MaxRequestWorkers setting
+[Mon Apr 07 23:12:17.790677 2014] [mpm_event:notice] [pid 629:tid 140315116873472] AH00489: Apache/2.4.7 (Unix) PHP/5.5.8 configured -- resuming normal operations
+[Mon Apr 07 23:12:17.790874 2014] [core:notice] [pid 629:tid 140315116873472] AH00094: Command line: '/home/action/.parts/packages/apache2/2.4.7-nitrous1/bin/httpd'
+[Mon Apr 07 23:12:18.791802 2014] [mpm_event:error] [pid 629:tid 140315116873472] AH00484: server reached MaxRequestWorkers setting, consider raising the MaxRequestWorkers setting

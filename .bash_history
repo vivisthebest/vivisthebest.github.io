@@ -1,0 +1,1 @@
+cd ~/vivisthebest.github.io
