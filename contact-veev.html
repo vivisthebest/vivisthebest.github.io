@@ -42,67 +42,27 @@
 		-ms-transition: all 0.7s ease-in-out;
 		transition: all 0.7s ease-in-out;
 	}
-	.message {
-		display: block;
-		margin: 0 auto;
-		width: 576px;
+	.me {
+		font-family: key;
+		color: #8e8a8a;
+		font-style: normal;
+		font-size: 19px;
+		font-weight: 100;
+		line-height: 15px;
+		margin-top: 45px;
+		text-align: center;
+		letter-spacing: 1px;
 	}
-    .alerts {
-        font-family: jjong;
-        font-size: 35px;
-        text-align: center;
-        position: relative;
-        margin-top: 60px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 100px;
-        width: 456;
-    }
-	form {
-		margin-top: 60px;
+	.contactinfo {
+		font-family: jjong;
+		color: #6f6e6e;
+		font-style: normal;
+		font-size: 25px;
+		text-align: normal;
+		width: 500px;
 		margin-right: auto;
 		margin-left: auto;
-		margin-bottom: 100px;
-		width: 459px;
-	}
-	label {
-		font-family: key;
-		font-size: 20px;
-		font-weight: 900;
-	}
-	input, textarea {
-		font-family: arial;
-		width: 439px;
-		height: 20px;
-		background: #efefef;
-		border: 1px solid #dedede;
-		padding: 10px;
-		margin-top: 3px;
-		font-size: 12px;
-		color: #3a3a3a;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		-o-border-radius:5px;
-		-ms-border-radius: 5px;
-		border-radius: 5px;
-	}
-	textarea {
-		height: 180px;
-	}
-	input:focus, textarea:focus {
-		border: 1px solid #97d6eb;
-	}
-	#send {
-		font: jjong;
-		width: 127px;
-		height: 38px;
-		border: none;
 		margin-top: 20px;
-		cursor: pointer;
-	}
-	send:hover {
-		opacity: .9;
-
 	}
 	a:link {
 		color: #aaaaaa;
@@ -140,49 +100,13 @@
 			<div class="toplink"><a href="./index.html">home</a></div>
 			<div class="toplink"><a href="./about-veev.html">about</a></div>
 			<div class="toplink"><a href="./veevs-work.html">work</a></div>
-			<div class="toplink"><a href="./contact-veev.php">contact</a></div>
+			<div class="toplink"><a href="./contact-veev.html">contact</a></div>
 		</div>
 		<div class="contact-title">contact me</div>
 	</header>
-
-	<section class="message">
-		<form method="post" action="send.php" name = "submit">
-            <?php if (!(isset($_POST['done']))) {?>
-			<label>name</label>
-			<input name="name" placeholder="type here...">
-
-			<label>email</label>
-			<input name="email" type="email" placeholder="type here...">     
-
-			<label>message</label>
-			<textarea name="message" placeholder="type here..."></textarea>
-
-			<label>*What is 2+2? (Anti-spam)</label>
-			<input name="human" placeholder="answer...">
-
-			<input id="send" name="send" type="submit" value="Submit">
-
-            <?php 
-            } else {
-            $done = $_POST['done'];
-
-            if ($done == 1) { ?>
-                <div class="alerts"><p>message sent</p></div>
-            <?php } else if ($done == 2) { ?>
-                <div class="alerts"><p>error...try again</p></div>
-            <?php } else if ($done == 3) { ?>
-                <div class="alerts"><p>go learn maff stoopid</p></div>
-            <?php } else { ?>
-                <div class="alerts"><p>fill all fields please</p></div>
-            <?php } 
-            }
-            exit;
-            ?>
-
-
-		</form>        
-	</section>
-
-	<footer class="form">
-	</footer>
+	<div class="me"><a href="http://github.com/vivisthebest">github.com/vivisthebest</a> &#8226; vivyee@bu.edu</div>
+	<div class="contactinfo">
+		<p>Please feel free to email me for any project requests or inquiries. I can be contacted through my email which is displayed above.</p>
+		<p>I can also be reached through my <a href="http://facebook.com/carrotviv">facebook</a>. Also feel free to drop a message just saying "hi." WAU YAY!</p>
+	</div>
 	</html>
