@@ -1,5 +1,5 @@
-    @font-face {font-family: jjong; src: url(../fonts/jjong.ttf);}
-    @font-face {font-family: key; src: url(../fonts/key.ttf);}
+    @font-face {font-family: jjong; src: url(./fonts/jjong.ttf);}
+    @font-face {font-family: key; src: url(./fonts/key.ttf);}
 
     header {
         text-align: center;
