@@ -1,0 +1,217 @@
+    @font-face {font-family: jjong; src: url(../fonts/jjong.ttf);}
+    @font-face {font-family: key; src: url(../fonts/key.ttf);}
+
+    header {
+        text-align: center;
+        background-color: white;
+    }
+    .about {
+        font-family: jjong;
+        color: #6f6e6e;
+        font-style: normal;
+        font-size: 25px;
+        text-align: normal;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .about-title {
+        font-family: jjong;
+        color: #404040;
+        font-style: normal;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 0px;
+        letter-spacing: 2px;
+        margin-top: 150px;
+        z-index: 999;
+    }
+    .bottomlink {
+        display: inline;
+        padding: 5px;
+        font-size: 45px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -0-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+    .contactinfo {
+        font-family: jjong;
+        color: #6f6e6e;
+        font-style: normal;
+        font-size: 25px;
+        text-align: normal;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .contact-title {
+        font-family: jjong;
+        color: #404040;
+        font-style: normal;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 0px;
+        margin-top: 150px;
+        letter-spacing: 2px;
+    }
+    .introTitle {
+        font-family: jjong;
+        color: #404040;
+        font-style: normal;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 0px;
+        margin-top: 100px;
+        letter-spacing: 2px;
+        z-index: 999;
+    }
+    .me {
+        font-family: key;
+        color: #8e8a8a;
+        font-style: normal;
+        font-size: 19px;
+        font-weight: 100;
+        line-height: 15px;
+        margin-top: 45px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .nav {
+        font-family: jjong;
+        font-weight: 100;
+        line-height: 96%;
+        position: relative; top: 100px;
+        text-align: center;
+        width: 100%;
+        z-index: 999;   
+    }
+    .photo {
+        text-align: center;
+    }
+    .titlenav {
+        font-family: jjong;
+        font-weight: 100;
+        line-height: 96%;
+        position: fixed; bottom: 100px;
+        text-align: center;
+        width: 100%;
+        z-index: 999;   
+    }
+    .toplink {
+        display: inline;
+        padding: 7px;
+        font-size: 35px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+    .wave {
+        font-family: jjong;
+        color: #979696;
+        font-style: normal;
+        font-size: 160px;
+        font-weight: 500;
+        line-height: 0px;
+        margin-top: 200px;
+    }
+    .workContent {
+        text-align: normal;
+        color: #6f6e6e;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .work {
+        font-family: jjong;
+        font-style: normal;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .work-title {
+        font-family: jjong;
+        color: #404040;
+        font-style: normal;
+        font-size: 100px;
+        font-weight: 300;
+        line-height: 0px;
+        letter-spacing: 2px;
+        margin-top: 150px;
+        z-index: 999;
+    }
+    .workTitle {
+        text-align: left;
+        color: #656565;
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    a:link {
+        color: #6f6e6e;
+        text-decoration: none;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -0-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+    a:visited{
+        color: #6f6e6e;
+        text-decoration: none;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -0-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+    a:hover {
+        color: #80bfe4;
+        opacity: .8;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -0-transition: all 0.7s ease-in-out;
+        -ms-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+    }
+    
+    /* tooltip */
+    .tooltip {
+        border-bottom: 1px dotted #000000;
+        color: #000000; outline: none;
+        cursor: help; text-decoration: none;
+        position: relative;
+    }
+    .tooltip span {
+        margin-left: -999em;
+        position: absolute;
+    }
+
+    .tooltip:hover span {
+        font-family: Calibri, Tahoma, Geneva, sans-serif;
+        position: absolute;
+        left: 1em;
+        top: 2em;
+        z-index: 99;
+        margin-left: 0;
+        width: 250px;
+    }
+    .tooltip:hover img {
+        border: 0;
+        margin: -10px 0 0 -55px;
+        float: left;
+        position: absolute;
+    }
+    .tooltip:hover em {
+        font-family: Candara, Tahoma, Geneva, sans-serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        display: block;
+        padding: 0.2em 0 0.6em 0;
+    }
+    .classic { padding: 0.8em 1em; }
+    .custom { padding: 0.5em 0.8em 0.8em 2em; }
+    * html a:hover { background: transparent; }​
